@@ -1,0 +1,14 @@
+Alogorithme Produit
+
+Var
+ a,b,p: entiers;
+
+Début
+   Ecrire "Entrez un nombre";
+      Lire a;
+   Ecrire "Entrez un deuxième nombre";
+      Lire b;
+      P <== a*b;
+   Ecrire le produit de,a ,"et",b,"=",P;
+Fin
+  
