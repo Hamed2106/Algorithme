@@ -1,0 +1,12 @@
+Alogorithme décomposition_2
+
+Var
+ i,n,somme,décomposition: entiers;
+
+Début
+    somme<==0; décomposition<=="  ",
+    Pour i ===> n Pas de 1:
+    somme <=== somme + i;
+    décomposition <== i-1,"+";
+   Fin Pour
+Fin
