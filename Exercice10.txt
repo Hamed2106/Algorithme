@@ -1,0 +1,16 @@
+Alogorithme nombre
+
+Var
+ a: entiers;
+
+Début
+    Répéter
+      si a>20 alors
+       Ecrire "Plus petit";
+      Sinon si a<10 alors
+       Ecrire "Plus grand";
+      sinon
+       Ecrire "Bravo"
+     Fin si
+   jusqu'à(a>=10) and (a<=20)
+Fin
