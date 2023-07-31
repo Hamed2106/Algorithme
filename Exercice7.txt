@@ -1,0 +1,11 @@
+Alogorithme table_de_multiplication;
+
+Var
+ i,j: entiers;
+
+Début
+   Pour i===> 1 à 10 pas de 1:
+    pour j ===> 0à10 pas de 1:
+   Ecrire i,"*",j;"=",i*j;
+   Fin Pour
+Fin
