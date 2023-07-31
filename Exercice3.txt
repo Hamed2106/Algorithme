@@ -1,0 +1,11 @@
+Alogorithme Pair_impair;
+
+Var:
+    nombre,entiers;
+
+Début
+   Ecrire "Entrez un nombre";
+      Lire nombre;
+   si nombre Mod2=0 alors;
+   Ecrire "le nombre est pair";
+Fin
