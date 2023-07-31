@@ -1,0 +1,15 @@
+Alogorithme table_8;
+
+Var
+ a,produit:entiers;
+
+Début
+     a<==0;
+     Répéter
+     produit<=== 8*a;
+   Ecrire "8*",a"="produit;
+      Lire a;
+   Ecrire "Entrez un deuxième nombre";
+      a <== a+1
+      jusqu'à a=10;
+Fin
