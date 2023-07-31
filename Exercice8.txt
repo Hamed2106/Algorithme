@@ -1,0 +1,20 @@
+Alogorithme Somme
+
+Var
+ nombre,somme: entiers;
+ décomposition: chaîne de caractère;
+
+Début
+   Ecrire "Entrez un nombre";
+      Lire nombre;
+        i<=== 1, somme<===0,décomposition<==="  ";
+   Répéter
+        somme<=== somme+i
+        si nombre=i alors
+        décomposition<== décomposition,i;
+        sinon
+        décomposition<== décomposition,i,"+";
+      Finsi
+      i<== i+1;
+      Ecrrire décomposition,"=",somme;
+Fin
