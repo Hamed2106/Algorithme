@@ -1,0 +1,18 @@
+Alogorithme Nombre;
+
+Var
+ n,m: entiers;
+
+Début
+   Ecrire "Entrez un nombre";
+      Lire n;
+   Ecrire "Entrez un deuxième nombre";
+      Lire m;
+      si m*n>0 alors;
+   Ecrire "positif";
+    sinon si m*n<0 alors;
+   Ecrire "négatif";
+    sinon ;
+   Ecrire "nul";
+ Fin si
+Fin
